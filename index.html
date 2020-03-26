@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gontijo</title>
+    <link rel="stylesheet" href="src/style/main.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo container">
+                <img src="src/img/logo.png" alt="Logo">
+            </div>
+            <nav class="container">
+                <ul>
+                    <li><a href="">Orçamentos</a></li>
+                    <li><a href="">Frota</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sub-header">
+            <div class="container content">
+                <div>
+                    <span>Orçamentos Abertos (10)</span>
+                </div>
+                <div>
+                    <form>
+                        <div>
+                            <input type="search" name="search" id="search" placeholder="Digite sua pesquisa....">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="banner container">
+            <div class="banner-titulo">
+                <h1>Frota</h1>
+            </div>
+            <div class="frota" id="frota"></div>
+        </section>
+    </main>
+</body>
+
+<!-- Importar Arquivos -->
+
+<script src="src/javascript/data.js"></script>
+<script src="src/javascript/auxiliar.js"></script>
+<script src="src/javascript/veiculos.js"></script>
+<script src="src/javascript/construct-card.js"></script>
+</html>

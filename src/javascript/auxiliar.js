@@ -1,0 +1,8 @@
+class auxiliar {
+   total(){
+
+   }
+   motorista(){
+
+   }
+}
