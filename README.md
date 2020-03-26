@@ -1,4 +1,4 @@
-# Sistema orçamento fretamento Gontijo
+## Sistema orçamento fretamento Gontijo
 Projeto parta fim de estudos no tripé do desenvolvimento web(JS, HTML, CSS)
 
 ## Tela
