@@ -1,8 +1,0 @@
-class auxiliar {
-   total(){
-
-   }
-   motorista(){
-
-   }
-}

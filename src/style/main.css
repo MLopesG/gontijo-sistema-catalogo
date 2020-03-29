@@ -16,7 +16,6 @@ html{
     --color-1:#ffffff;
     --color-2:#000000;
 }
-
 header{
     background: var(--color-header);
     align-items: center;
@@ -37,7 +36,7 @@ header nav ul li{
 
 header nav ul li:nth-child(2){
     border: 1px solid var(--color-2);
-    padding: 0.7rem 2rem;
+    padding: 0.4rem 2rem;
 }
 
 header nav ul li a{
@@ -46,7 +45,7 @@ header nav ul li a{
 }
 
 .logo img{
-    max-width: 8rem;
+    max-width: 7rem;
 }
 
 .container{
@@ -68,19 +67,20 @@ header nav ul li a{
     font-size: 1.2rem;
 }
 
+.container-fixed{
+    padding: 10px 20px;
+}
+
 .frota{
     margin-top: 1rem;
     margin-bottom: 1rem;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card-carro{
-    margin-bottom: 0.5rem;
-
-    max-width: 310px;
+    margin-bottom: 1.8rem;
     box-shadow: 1px 1px 1px 1px #ededee;
     background: var(--color-1);
 }
@@ -103,8 +103,13 @@ header nav ul li a{
 
 .content{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.content div{
+    margin-top: .5rem;
 }
 
 .sub-header{
@@ -139,4 +144,21 @@ header nav ul li a{
 .card-carro-btn button:hover{
     cursor: pointer;
     background: var(--color-header);
+}
+
+@media screen and (min-width: 992px) {
+    .container-fixed{
+        width: 80%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    .card-carro{
+        width: 270px;
+    }
+    .content{        
+        flex-direction: row;
+    }    
+    .content div{
+        margin-top: unset;
+    }
 }
